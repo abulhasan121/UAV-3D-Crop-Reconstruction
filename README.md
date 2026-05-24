@@ -1,4 +1,4 @@
-# 🌾 Crop Field 3D Gaussian Splatting Reconstruction
+# Crop Field 3D Gaussian Splatting Reconstruction
 
 A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splatting (3DGS). This project uses the [gsplat 3DGUT](https://github.com/jonstephens85/gsplat_3dgut) framework to reconstruct a photorealistic 3D scene from 248 DJI drone images.
 
