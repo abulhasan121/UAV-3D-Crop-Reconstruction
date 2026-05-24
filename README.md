@@ -2,7 +2,7 @@
 
 A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splatting (3DGS). This project uses the [gsplat 3DGUT](https://github.com/jonstephens85/gsplat_3dgut) framework to reconstruct a photorealistic 3D scene from 248 DJI drone images.
 
-## 📂 Dataset
+## Dataset
 
 | Property | Value |
 |---|---|
@@ -15,7 +15,7 @@ A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splattin
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 The project follows a classic photogrammetry-to-neural-rendering pipeline:
 
@@ -52,7 +52,7 @@ Drone Images → COLMAP SfM → Sparse Point Cloud → 3D Gaussian Splatting →
 
 ---
 
-## 🛠️ Pipeline Commands
+## Pipeline Commands
 
 ### 1. Environment Setup
 
@@ -164,7 +164,7 @@ python examples/simple_trainer.py default \
 
 ---
 
-## 🖥️ Hardware Requirements
+## Hardware Requirements
 
 | Component | Minimum | Used |
 |---|---|---|
@@ -174,7 +174,7 @@ python examples/simple_trainer.py default \
 
 ---
 
-## 📦 Output Files
+## Output Files
 
 ```
 results/cropfield/
@@ -186,7 +186,7 @@ results/cropfield/
 
 ---
 
-## 🔍 Viewing Results
+## Viewing Results
 
 ### Online Viewer (No Install)
 Upload the `.ply` file to **[SuperSplat](https://supersplat.playcanvas.com/)** and view in the browser.
@@ -194,7 +194,7 @@ Upload the `.ply` file to **[SuperSplat](https://supersplat.playcanvas.com/)** a
 ### Live Viewer During Training
 Open `http://localhost:8080` in your browser while training is running.
 
-## 📚 References
+## References
 
 - [gsplat 3DGUT](https://github.com/jonstephens85/gsplat_3dgut)
 - [3D Gaussian Splatting (Kerbl et al., 2023)](https://arxiv.org/abs/2308.04079)
@@ -204,6 +204,6 @@ Open `http://localhost:8080` in your browser while training is running.
 
 ---
 
-## 📄 License
+## License
 
 MIT License
