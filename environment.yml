@@ -1,0 +1,21 @@
+name: gsplat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch>=2.0.0
+    - torchvision
+    - numpy
+    - Pillow
+    - tqdm
+    - scipy
+    - torchmetrics
+    - viser
+    - tyro
+    - imageio
+    - imageio-ffmpeg
+    - lpips
+    - nerfview
