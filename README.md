@@ -4,7 +4,7 @@ A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splattin
 
 ## 📽️ Result Preview
 
-https://github.com/abulhasan121/UAV-3D-Crop-Reconstruction/blob/main/traj_1999.mp4
+https://github.com/abulhasan121/UAV-3D-Crop-Reconstruction/raw/main/traj_1999.mp4
 
 ## Dataset
 
