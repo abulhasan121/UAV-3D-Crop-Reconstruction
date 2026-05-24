@@ -4,8 +4,6 @@ A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splattin
 
 ## 📽️ Result Preview
 
-> Training result at step 1999 — full 30,000 step training in progress.
-
 [![Crop Field 3DGS Preview](https://img.youtube.com/vi/-NlKIbTkc24/0.jpg)](https://www.youtube.com/watch?v=-NlKIbTkc24)
 
 ## Dataset
