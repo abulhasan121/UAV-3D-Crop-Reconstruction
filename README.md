@@ -2,16 +2,6 @@
 
 A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splatting (3DGS). This project uses the [gsplat 3DGUT](https://github.com/jonstephens85/gsplat_3dgut) framework to reconstruct a photorealistic 3D scene from 248 DJI drone images.
 
----
-
-## 📽️ Result Preview
-
-> Training result at step 1999 — full 30,000 step training in progress.
-
-![Crop Field 3DGS](videos/traj_1999.mp4)
-
----
-
 ## 📂 Dataset
 
 | Property | Value |
@@ -203,18 +193,6 @@ Upload the `.ply` file to **[SuperSplat](https://supersplat.playcanvas.com/)** a
 
 ### Live Viewer During Training
 Open `http://localhost:8080` in your browser while training is running.
-
----
-
-## ⚠️ Known Issues & Fixes
-
-- **Sequential matcher** works better than exhaustive for drone survey images
-- **COLMAP saves multiple reconstructions** — check `sparse/0` and `sparse/1`, use the one with the most images registered
-- **8GB VRAM** — use `--data-factor 4` and `--packed` to reduce memory usage
-- **Windows path with spaces** — use `set PATH` to add tools before running
-- **fused_ssim not available on Windows** — replaced with `torchmetrics` in `simple_trainer.py`
-
----
 
 ## 📚 References
 
