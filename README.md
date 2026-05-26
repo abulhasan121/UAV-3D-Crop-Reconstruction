@@ -2,7 +2,7 @@
 
 A 3D reconstruction of a crop field using drone imagery and 3D Gaussian Splatting (3DGS). This project uses the [gsplat 3DGUT](https://github.com/jonstephens85/gsplat_3dgut) framework to reconstruct a photorealistic 3D scene from 248 DJI drone images.
 
-## 📽️ Result Preview
+## Result Preview
 
 [![Crop Field 3DGS Preview](https://img.youtube.com/vi/-NlKIbTkc24/0.jpg)](https://www.youtube.com/watch?v=-NlKIbTkc24)
 
